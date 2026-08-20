@@ -4,7 +4,7 @@ DeepSeek Harness 的皮肤扩展插件：一套完整的主题 token 换肤方�
 
 - **预设皮肤**：紫夜 / 深海 / 午夜 / 樱花 / 纸张，覆盖深色与浅色，每套生成完整的 `--dsw-alias-*` token 集。
 - **壁纸智能取色**：上传或拖拽图片（`image/*`、≤10MB），客户端 K-means 聚类提取主色，自动生成「壁纸配色 Auto」皮肤；支持透明度、模糊、噪点三个滑条（噪点为 SVG feTurbulence 灰度层，0–40%）。
-- **自定义主色**：原生取色器 + 文本输入（`#RRGGBB` / `R,G,B`），校验失败提示且不应用；与壁纸 Auto 相互独立、可并存。
+- **自定义主色**：原生取色器 + 文本输入（`#RRGGBB` / `R,G,B`）；与壁纸 Auto 相互独立、可并存。
 - **全局饱和度**：0–200% 滑条，实时作用于所有皮肤的主色再生成 token。
 - **更顺手的皮肤交互**：单击试穿、双击直接应用、左侧色条与 hover 强调、试穿横幅淡入淡出、「已应用 ✓」短暂反馈。
 - **沉浸式滑条预览**：拖动任意滑条时，设置弹窗（含遮罩与导航）整体隐藏，露出主界面，只保留当前滑块在原位；松开即恢复。
@@ -58,7 +58,7 @@ A skin extension plugin for DeepSeek Harness. It provides a complete theme token
 
 - **Wallpaper smart color extraction**: Upload or drag an image (`image/*`, ≤10MB). Client-side K-means clustering extracts the dominant color and auto-generates a "Wallpaper Auto" skin. Supports three sliders: opacity, blur, and noise (SVG feTurbulence grayscale layer, 0–40%).
 
-- **Custom primary color**: Native color picker + text input (`#RRGGBB` / `R,G,B`). Invalid inputs show a warning and are not applied. Works independently alongside the Wallpaper Auto skin.
+- **Custom primary color**: Native color picker + text input (`#RRGGBB` / `R,G,B`). Works independently alongside the Wallpaper Auto skin.
 
 - **Global saturation**: 0–200% slider that reapplies to the primary color of all skins in real time.
 
