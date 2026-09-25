@@ -96,6 +96,6 @@ More features are in active development. Feedback and suggestions are welcome.
 ## Author
 
 - Xiaohongshu/Rednote: @Epho
-- GitHub: https://github.com/fthuu
+- GitHub: [https://github.com/EphoReal](https://github.com/EphoReal)
 
 
