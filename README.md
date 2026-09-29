@@ -43,7 +43,7 @@ GPL-3.0
 ## 作者
 
 - 小红书：@Epho
-- GitHub: https://github.com/fthuu
+- GitHub: [https://github.com/EphoReal](https://github.com/EphoReal)
 
 
 ## English Version
