@@ -5,7 +5,7 @@ DeepSeek Harness 的皮肤扩展插件：一套完整的主题 token 换肤方�
 - **预设皮肤**：紫夜 / 深海 / 午夜 / 樱花 / 纸张，覆盖深色与浅色，每套生成完整的 `--dsw-alias-*` token 集。
 - **壁纸智能取色**：上传或拖拽图片（`image/*`、≤10MB），客户端 K-means 聚类提取主色，自动生成「壁纸配色 Auto」皮肤；支持透明度、模糊、噪点三个滑条（噪点为 SVG feTurbulence 灰度层，0–100%）。
 - **自定义主色**：原生取色器 + 文本输入（`#RRGGBB` / `R,G,B`）；与壁纸 Auto 相互独立、可并存。
-- **全局饱和度**：0–200% 滑条，实时作用于所有皮肤的主色再生成 token。
+- **全局饱和度**：0–100% 滑条，实时作用于所有皮肤的主色再生成 token。
 - **更顺手的皮肤交互**：单击卡片即应用、卡片带自身颜色的淡渐变、应用时描边光环与「已应用 ✓」反馈、换肤 220ms 交叉淡化。
 - **沉浸式滑条预览**：拖动任意滑条时，设置弹窗（含遮罩与导航）整体隐藏，露出主界面，只保留当前滑块在原位；松开即恢复。
 - **持久化**：激活皮肤、壁纸（含透明度/模糊/噪点）、Auto 主色、饱和度、自定义主色全部存 localStorage，启动自动恢复。
@@ -13,8 +13,9 @@ DeepSeek Harness 的皮肤扩展插件：一套完整的主题 token 换肤方�
 ## 截图预览
 
 <div align="center">
-  <img src="screenshots/screenshot1.png" width="45%" alt="1" />
-  <img src="screenshots/screenshot2.png" width="45%" alt="2" />
+  <img src="screenshots/screenshot1.png" width="45%" alt="主界面" />
+  <img src="screenshots/screenshot2.png" width="45%" alt="设置页：皮肤、主色与壁纸" />
+  <img src="screenshots/screenshot3.png" width="45%" alt="最大噪点下的壁纸风格" />
 </div>
 
 ## 安装 / 使用
@@ -60,7 +61,7 @@ A skin extension plugin for DeepSeek Harness. It provides a complete theme token
 
 - **Custom primary color**: Native color picker + text input (`#RRGGBB` / `R,G,B`). Works independently alongside the Wallpaper Auto skin.
 
-- **Global saturation**: 0–200% slider that reapplies to the primary color of all skins in real time.
+- **Global saturation**: 0–100% slider that reapplies to the primary color of all skins in real time.
 
 - **More responsive skin interaction**: a single click applies, each card carries a soft tint of its own colour, an applied card pulses its outline and shows "Applied ✓", and theme switches crossfade over 220 ms.
 
