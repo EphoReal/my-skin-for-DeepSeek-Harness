@@ -15,7 +15,6 @@ DeepSeek Harness 的皮肤扩展插件：一套完整的主题 token 换肤方�
 <div align="center">
   <img src="screenshots/screenshot1.png" width="45%" alt="主界面" />
   <img src="screenshots/screenshot2.png" width="45%" alt="设置页：皮肤、主色与壁纸" />
-  <img src="screenshots/screenshot3.png" width="45%" alt="最大噪点下的壁纸风格" />
 </div>
 
 ## 安装 / 使用
